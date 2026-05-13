@@ -17,3 +17,11 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
 The code is written and executed via python 3.14.0
 
 The difference between this code and a normal game of life code, is that in order to portray the recursive nature of the game better, there is a transitional state which shows the previous cells dying, and then the birth of the new cells. It is a more clear visual representation of how the cells are born regarding the previous state. 
+
+## Current Status
+
+In this stage, I have a simple functioning four-phase game of life, with adjustable initial grid and adjustable time interval between phases (respectively set to default 10*10 grid and one second time interval). 
+
+## Future experiments
+
+I intend to make the initial probability distribution of alive and dead cells an adjustable input too. 
