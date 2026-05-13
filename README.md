@@ -11,3 +11,9 @@ Any live cell with fewer than two live neighbours dies, as if by underpopulation
 Any live cell with two or three live neighbours lives on to the next generation.
 Any live cell with more than three live neighbours dies, as if by overpopulation.
 Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+# Setup and Result
+
+The code is written and executed via python 3.14.0
+
+The difference between this code and a normal game of life code, is that in order to portray the recursive nature of the game better, there is a transitional state which shows the previous cells dying, and then the birth of the new cells. It is a more clear visual representation of how the cells are born regarding the previous state. 
